@@ -2,7 +2,7 @@ const puppeteer = require('puppeteer')
 const fs = require('fs')
 
 // Define an array of URLs to process
-const urls = ['https://sara-v.com/']
+const urls = ['']
 
 async function runProduct(url) {
   console.log(`Running product for URL: ${url}`)
@@ -31,7 +31,6 @@ async function runProduct(url) {
     const elements = await page.$$eval('*', (els) =>
       els.map((el) => el.innerHTML),
     )
-    //console.log(elements)
 
     // Write the page HTML to a new file with the same timestamp as the screenshot
     fs.writeFileSync(`./screenshots/${timestamp}.html`, await page.content())
