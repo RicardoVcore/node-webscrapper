@@ -1,0 +1,14 @@
+{
+  "name": "api-webscrapper",
+  "version": "1.0.0",
+  "description": "Scrapping Tool for HTML",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ricardo Vasques",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^19.7.2"
+  }
+}
