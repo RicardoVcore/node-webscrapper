@@ -13,5 +13,5 @@ This program is built with node.js and uses puppeteer to get the html code of a 
 ## Upgrades
 I may add a front end to this program in the future, but for now this is a simple program that does the job, if you want to add a front end to this program feel free to do so. 
 
-## Diclaimer
+## Disclaimer
 This program is for educational purposes only, I am not responsible for any damage caused by this program. Some websites have a terms of service that does not allow you to scrape their website, so make sure you check the terms of service of the website you want to scrape before using this program, use this is an educational tool to learn how to scrape websites, my advice is to use your own website to test this program and learn how it works. 
